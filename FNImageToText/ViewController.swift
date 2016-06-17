@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let image = UIImage.init(named: "Gastly")
-        let resultString = image?.fn_toString()
-        print(resultString!)
+        
+        let imageView = FNCharMapImageView.init(frame: CGRectMake(20, 100, view.frame.size.width - 40, view.frame.size.width - 40))
+        view.addSubview(imageView)
+        imageView.sharp = 0.3
+        imageView.image = UIImage.init(named: "Gastly")
+        
     }
 
     override func didReceiveMemoryWarning() {

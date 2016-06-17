@@ -9,18 +9,28 @@
 import UIKit
 
 extension UIImage {
-    func fn_toString() -> String{
+    func fn_toString(sharp:Float, fillWidth:Bool) -> String{
         var resultString = ""
         let pixelData=CGDataProviderCopyData(CGImageGetDataProvider(self.CGImage))
         let data:UnsafePointer<UInt8> = CFDataGetBytePtr(pixelData)
-        for i in 0...100 {
-            for j in 0...100 {
+        var wNum = 100
+        var hNum = 100
+        if fillWidth {
+            wNum = NSInteger(size.width * CGFloat(sharp) / 1.655)
+            hNum = NSInteger(size.height * CGFloat(sharp))
+        }
+        else {
+            wNum = NSInteger(size.width * CGFloat(sharp))
+            hNum = NSInteger(size.height * 1.655 * CGFloat(sharp))
+        }
+        for i in 0...wNum {
+            for j in 0...hNum {
                 var count = 0
                 var grayDegree = 0.0
-                for k in 0...Int(self.size.width/100) {
-                    for l in 0...Int(self.size.height/100) {
+                for k in 0...Int(self.size.width/CGFloat(hNum)) {
+                    for l in 0...Int(self.size.height/CGFloat(wNum)) {
                         count += 1
-                        let pos = CGPointMake(self.size.width/100 * CGFloat(j) + CGFloat(k), self.size.height/100 * CGFloat(i) + CGFloat(l))
+                        let pos = CGPointMake(self.size.width/CGFloat(hNum) * CGFloat(j) + CGFloat(k), self.size.height/CGFloat(wNum) * CGFloat(i) + CGFloat(l))
                         let pixelInfo: Int = ((Int(self.size.width) * Int(pos.y)) + Int(pos.x)) * 4
                         let r = Double(data[pixelInfo])
                         let g = Double(data[pixelInfo+1])
