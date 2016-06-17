@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let sharp = 1.0
+        let sharp = 0.1
         
         let label = UILabel.init(frame: CGRectMake(20, 70, view.frame.size.width - 40, 40))
         label.text = NSString.init(format: "sharp = %f", sharp) as String
