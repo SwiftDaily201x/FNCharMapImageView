@@ -20,7 +20,7 @@ extension UIImage {
                 for k in 0...Int(self.size.width/100) {
                     for l in 0...Int(self.size.height/100) {
                         count += 1
-                        let pos = CGPointMake(self.size.width/100 * CGFloat(i) + CGFloat(k), self.size.height/100 * CGFloat(j) + CGFloat(l))
+                        let pos = CGPointMake(self.size.width/100 * CGFloat(j) + CGFloat(k), self.size.height/100 * CGFloat(i) + CGFloat(l))
                         let pixelInfo: Int = ((Int(self.size.width) * Int(pos.y)) + Int(pos.x)) * 4
                         let r = Double(data[pixelInfo])
                         let g = Double(data[pixelInfo+1])
