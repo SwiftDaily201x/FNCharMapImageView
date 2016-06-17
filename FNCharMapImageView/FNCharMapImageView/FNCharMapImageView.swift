@@ -1,6 +1,6 @@
 //
 //  FNCharMapImageView.swift
-//  FNImageToText
+//  FNCharMapImageView
 //
 //  Created by Fnoz on 16/6/18.
 //  Copyright © 2016年 Fnoz. All rights reserved.

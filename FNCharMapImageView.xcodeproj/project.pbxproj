@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10DCB1691D145FBA008B22BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB15F1D145FBA008B22BB /* AppDelegate.swift */; };
-		10DCB16A1D145FBA008B22BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1601D145FBA008B22BB /* Assets.xcassets */; };
-		10DCB16B1D145FBA008B22BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1611D145FBA008B22BB /* LaunchScreen.storyboard */; };
-		10DCB16C1D145FBA008B22BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1631D145FBA008B22BB /* Main.storyboard */; };
-		10DCB16D1D145FBA008B22BB /* FNImageToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB1661D145FBA008B22BB /* FNImageToText.swift */; };
-		10DCB16E1D145FBA008B22BB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1671D145FBA008B22BB /* Info.plist */; };
-		10DCB16F1D145FBA008B22BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB1681D145FBA008B22BB /* ViewController.swift */; };
-		10DCB1711D14600E008B22BB /* FNCharMapImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB1701D14600E008B22BB /* FNCharMapImageView.swift */; };
+		10DCB17E1D1478E3008B22BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB1731D1478E3008B22BB /* AppDelegate.swift */; };
+		10DCB17F1D1478E3008B22BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1741D1478E3008B22BB /* Assets.xcassets */; };
+		10DCB1801D1478E3008B22BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1751D1478E3008B22BB /* LaunchScreen.storyboard */; };
+		10DCB1811D1478E3008B22BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB1771D1478E3008B22BB /* Main.storyboard */; };
+		10DCB1821D1478E3008B22BB /* FNCharMapImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB17A1D1478E3008B22BB /* FNCharMapImageView.swift */; };
+		10DCB1831D1478E3008B22BB /* FNImageToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB17B1D1478E3008B22BB /* FNImageToText.swift */; };
+		10DCB1841D1478E3008B22BB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10DCB17C1D1478E3008B22BB /* Info.plist */; };
+		10DCB1851D1478E3008B22BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB17D1D1478E3008B22BB /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		109F6C741D13C2170075C571 /* FNImageToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNImageToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		10DCB15F1D145FBA008B22BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10DCB1601D145FBA008B22BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10DCB1621D145FBA008B22BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		10DCB1641D145FBA008B22BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		10DCB1661D145FBA008B22BB /* FNImageToText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNImageToText.swift; sourceTree = "<group>"; };
-		10DCB1671D145FBA008B22BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10DCB1681D145FBA008B22BB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		10DCB1701D14600E008B22BB /* FNCharMapImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNCharMapImageView.swift; sourceTree = "<group>"; };
+		109F6C741D13C2170075C571 /* FNCharMapImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNCharMapImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DCB1731D1478E3008B22BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10DCB1741D1478E3008B22BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10DCB1761D1478E3008B22BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10DCB1781D1478E3008B22BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10DCB17A1D1478E3008B22BB /* FNCharMapImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNCharMapImageView.swift; sourceTree = "<group>"; };
+		10DCB17B1D1478E3008B22BB /* FNImageToText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNImageToText.swift; sourceTree = "<group>"; };
+		10DCB17C1D1478E3008B22BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DCB17D1D1478E3008B22BB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		109F6C6B1D13C2170075C571 = {
 			isa = PBXGroup;
 			children = (
-				10DCB15E1D145FBA008B22BB /* FNImageToText */,
+				10DCB1721D1478E3008B22BB /* FNCharMapImageView */,
 				109F6C751D13C2170075C571 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,40 +51,40 @@
 		109F6C751D13C2170075C571 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				109F6C741D13C2170075C571 /* FNImageToText.app */,
+				109F6C741D13C2170075C571 /* FNCharMapImageView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10DCB15E1D145FBA008B22BB /* FNImageToText */ = {
+		10DCB1721D1478E3008B22BB /* FNCharMapImageView */ = {
 			isa = PBXGroup;
 			children = (
-				10DCB1651D145FBA008B22BB /* FNImageToTextLabel */,
-				10DCB1681D145FBA008B22BB /* ViewController.swift */,
-				10DCB15F1D145FBA008B22BB /* AppDelegate.swift */,
-				10DCB1601D145FBA008B22BB /* Assets.xcassets */,
-				10DCB1611D145FBA008B22BB /* LaunchScreen.storyboard */,
-				10DCB1631D145FBA008B22BB /* Main.storyboard */,
-				10DCB1671D145FBA008B22BB /* Info.plist */,
+				10DCB1791D1478E3008B22BB /* FNCharMapImageView */,
+				10DCB17D1D1478E3008B22BB /* ViewController.swift */,
+				10DCB1731D1478E3008B22BB /* AppDelegate.swift */,
+				10DCB1741D1478E3008B22BB /* Assets.xcassets */,
+				10DCB1751D1478E3008B22BB /* LaunchScreen.storyboard */,
+				10DCB1771D1478E3008B22BB /* Main.storyboard */,
+				10DCB17C1D1478E3008B22BB /* Info.plist */,
 			);
-			path = FNImageToText;
+			path = FNCharMapImageView;
 			sourceTree = "<group>";
 		};
-		10DCB1651D145FBA008B22BB /* FNImageToTextLabel */ = {
+		10DCB1791D1478E3008B22BB /* FNCharMapImageView */ = {
 			isa = PBXGroup;
 			children = (
-				10DCB1661D145FBA008B22BB /* FNImageToText.swift */,
-				10DCB1701D14600E008B22BB /* FNCharMapImageView.swift */,
+				10DCB17A1D1478E3008B22BB /* FNCharMapImageView.swift */,
+				10DCB17B1D1478E3008B22BB /* FNImageToText.swift */,
 			);
-			path = FNImageToTextLabel;
+			path = FNCharMapImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		109F6C731D13C2170075C571 /* FNImageToText */ = {
+		109F6C731D13C2170075C571 /* FNCharMapImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 109F6C861D13C2170075C571 /* Build configuration list for PBXNativeTarget "FNImageToText" */;
+			buildConfigurationList = 109F6C861D13C2170075C571 /* Build configuration list for PBXNativeTarget "FNCharMapImageView" */;
 			buildPhases = (
 				109F6C701D13C2170075C571 /* Sources */,
 				109F6C711D13C2170075C571 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = FNImageToText;
+			name = FNCharMapImageView;
 			productName = FNImageToText;
-			productReference = 109F6C741D13C2170075C571 /* FNImageToText.app */;
+			productReference = 109F6C741D13C2170075C571 /* FNCharMapImageView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 109F6C6F1D13C2170075C571 /* Build configuration list for PBXProject "FNImageToText" */;
+			buildConfigurationList = 109F6C6F1D13C2170075C571 /* Build configuration list for PBXProject "FNCharMapImageView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				109F6C731D13C2170075C571 /* FNImageToText */,
+				109F6C731D13C2170075C571 /* FNCharMapImageView */,
 			);
 		};
 /* End PBXProject section */
@@ -137,10 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DCB16E1D145FBA008B22BB /* Info.plist in Resources */,
-				10DCB16C1D145FBA008B22BB /* Main.storyboard in Resources */,
-				10DCB16A1D145FBA008B22BB /* Assets.xcassets in Resources */,
-				10DCB16B1D145FBA008B22BB /* LaunchScreen.storyboard in Resources */,
+				10DCB1841D1478E3008B22BB /* Info.plist in Resources */,
+				10DCB1811D1478E3008B22BB /* Main.storyboard in Resources */,
+				10DCB17F1D1478E3008B22BB /* Assets.xcassets in Resources */,
+				10DCB1801D1478E3008B22BB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,28 +151,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DCB16F1D145FBA008B22BB /* ViewController.swift in Sources */,
-				10DCB1691D145FBA008B22BB /* AppDelegate.swift in Sources */,
-				10DCB1711D14600E008B22BB /* FNCharMapImageView.swift in Sources */,
-				10DCB16D1D145FBA008B22BB /* FNImageToText.swift in Sources */,
+				10DCB17E1D1478E3008B22BB /* AppDelegate.swift in Sources */,
+				10DCB1821D1478E3008B22BB /* FNCharMapImageView.swift in Sources */,
+				10DCB1851D1478E3008B22BB /* ViewController.swift in Sources */,
+				10DCB1831D1478E3008B22BB /* FNImageToText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		10DCB1611D145FBA008B22BB /* LaunchScreen.storyboard */ = {
+		10DCB1751D1478E3008B22BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				10DCB1621D145FBA008B22BB /* Base */,
+				10DCB1761D1478E3008B22BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		10DCB1631D145FBA008B22BB /* Main.storyboard */ = {
+		10DCB1771D1478E3008B22BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				10DCB1641D145FBA008B22BB /* Base */,
+				10DCB1781D1478E3008B22BB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -267,10 +267,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FNImageToText/Info.plist;
+				INFOPLIST_FILE = FNCharMapImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fnoz.FNImageToText;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FNCharMapImageView;
 			};
 			name = Debug;
 		};
@@ -278,17 +278,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FNImageToText/Info.plist;
+				INFOPLIST_FILE = FNCharMapImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fnoz.FNImageToText;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FNCharMapImageView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		109F6C6F1D13C2170075C571 /* Build configuration list for PBXProject "FNImageToText" */ = {
+		109F6C6F1D13C2170075C571 /* Build configuration list for PBXProject "FNCharMapImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				109F6C841D13C2170075C571 /* Debug */,
@@ -297,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		109F6C861D13C2170075C571 /* Build configuration list for PBXNativeTarget "FNImageToText" */ = {
+		109F6C861D13C2170075C571 /* Build configuration list for PBXNativeTarget "FNCharMapImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				109F6C871D13C2170075C571 /* Debug */,
