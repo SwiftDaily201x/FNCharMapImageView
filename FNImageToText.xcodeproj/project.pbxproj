@@ -12,6 +12,7 @@
 		109F6C7D1D13C2170075C571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109F6C7B1D13C2170075C571 /* Main.storyboard */; };
 		109F6C7F1D13C2170075C571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109F6C7E1D13C2170075C571 /* Assets.xcassets */; };
 		109F6C821D13C2170075C571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109F6C801D13C2170075C571 /* LaunchScreen.storyboard */; };
+		109F6C8B1D13C2E50075C571 /* FNImageToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109F6C8A1D13C2E50075C571 /* FNImageToText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		109F6C7E1D13C2170075C571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		109F6C811D13C2170075C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		109F6C831D13C2170075C571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109F6C8A1D13C2E50075C571 /* FNImageToText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNImageToText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		109F6C761D13C2170075C571 /* FNImageToText */ = {
 			isa = PBXGroup;
 			children = (
+				109F6C891D13C2380075C571 /* FNImageToText */,
 				109F6C771D13C2170075C571 /* AppDelegate.swift */,
 				109F6C791D13C2170075C571 /* ViewController.swift */,
 				109F6C7B1D13C2170075C571 /* Main.storyboard */,
 				109F6C7E1D13C2170075C571 /* Assets.xcassets */,
 				109F6C801D13C2170075C571 /* LaunchScreen.storyboard */,
 				109F6C831D13C2170075C571 /* Info.plist */,
+			);
+			path = FNImageToText;
+			sourceTree = "<group>";
+		};
+		109F6C891D13C2380075C571 /* FNImageToText */ = {
+			isa = PBXGroup;
+			children = (
+				109F6C8A1D13C2E50075C571 /* FNImageToText.swift */,
 			);
 			path = FNImageToText;
 			sourceTree = "<group>";
@@ -137,6 +148,7 @@
 			files = (
 				109F6C7A1D13C2170075C571 /* ViewController.swift in Sources */,
 				109F6C781D13C2170075C571 /* AppDelegate.swift in Sources */,
+				109F6C8B1D13C2E50075C571 /* FNImageToText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
