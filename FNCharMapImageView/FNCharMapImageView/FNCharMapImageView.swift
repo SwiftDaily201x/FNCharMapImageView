@@ -60,6 +60,7 @@ class FNCharMapImageView: UIView {
         clipsToBounds = true
         label = UILabel.init(frame: self.bounds)
         label.numberOfLines = 0
+        label.lineBreakMode = .ByCharWrapping
         addSubview(label)
     }
     

@@ -23,20 +23,27 @@ extension UIImage {
             wNum = NSInteger(size.width * CGFloat(sharp))
             hNum = NSInteger(size.height * 1.655 * CGFloat(sharp))
         }
-        for i in 0...wNum {
-            for j in 0...hNum {
+        for i in 0...wNum-1 {
+            for j in 0...hNum-1 {
                 var count = 0
                 var grayDegree = 0.0
-                for k in 0...Int(self.size.width/CGFloat(hNum)) {
-                    for l in 0...Int(self.size.height/CGFloat(wNum)) {
-                        count += 1
-                        let pos = CGPointMake(self.size.width/CGFloat(hNum) * CGFloat(j) + CGFloat(k), self.size.height/CGFloat(wNum) * CGFloat(i) + CGFloat(l))
+                var kCount = self.size.width/CGFloat(hNum)
+                if !fillWidth {
+                    kCount = 1.655 * self.size.width/CGFloat(hNum)
+                }
+                for k in 0...Int(kCount)-1 {
+                    for l in 0...Int(self.size.height/CGFloat(wNum))-1 {
+                        let pos = CGPointMake(floor(self.size.width/CGFloat(hNum) * CGFloat(j) + CGFloat(k)), self.size.height/CGFloat(wNum) * CGFloat(i) + CGFloat(l))
+                        if pos.x >= size.width || pos.y >= size.height {
+                            continue
+                        }
                         let pixelInfo: Int = ((Int(self.size.width) * Int(pos.y)) + Int(pos.x)) * 4
                         let r = Double(data[pixelInfo])
                         let g = Double(data[pixelInfo+1])
                         let b = Double(data[pixelInfo+2])
                         let a = Double(data[pixelInfo+3]) / Double(255.0)
                         grayDegree += (r + g + b) * a / 3
+                        count += 1
                     }
                 }
                 let averageRGB = grayDegree/Double(count)
